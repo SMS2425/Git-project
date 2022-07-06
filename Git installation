@@ -1,0 +1,14 @@
+sudo apt update
+sudo apt install git
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+git config --list
+git remote -v
+git remote set-url git@github.com:SMS2425/Git-project.git
+exit
+git add .
+git commit -m "message"
+git push origin master/main
+git clone git@github.com:SMS2425/Git-project.git
+git pull git@github.com:SMS2425/Git-project.git
